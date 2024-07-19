@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            background: linear-gradient(to right, lightblue 50%, white 50%);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+            margin: 0,auto;
+        }
+        .aa{
+            width:100%;
+        }
+        @media screen and (max-width:640) and (min-width:320px){
+            .aa{
+              font-size:clamp(1rem,2vw,2rem);
+            }
+        }
+        .dd{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    gap: 1%;
+   }
+   .d1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 50%;
+   }
+   .ee{
+    display: flex;
+    width: 50%;
+
+         justify-content: start;
+            color:black;
+            font-size: clamp(1rem,2vw,2rem);
+            display: inline-block;
+            padding-left: 5%;
+            padding-top: 5%;
+            padding-right: 5%;
+            padding-bottom: 10%;
+        }
+        .ff{
+            width:30%;
+            height: 100%;
+            padding-bottom: 20%;
+            padding-top: 20%;
+        }
+        .ii{
+            color:white;
+            background-color:skyblue;
+            font-size: clamp(1rem,2vw,2rem);
+            bottom: unset;
+            border-bottom-color:white;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+ <section class="aa">
+    <div class="dd"> 
+        <div class="d1">
+        <img  src="./snow-alt-svgrepo-com.svg"  class="ff" alt="">
+        </div>
+        <div class="ee">
+        <h5 style="color:lightblue;">Phasellus sit amet erat id</h5>
+       <span style="color: lightblue;"> _________________________</span>
+        <br>
+        <br>
+        <h6 >Sided Template has 3 HTML pages. <span style="color:lightblue;">Index, Page 2 </span> and 
+            <span style="color: lightblue;">Page 3</span>. This is Bootstrap v4.2.1 layout. You may visit 
+          <span style="color: lightblue;">templatemo page </span> for latest updates. Thank you.</h6>
+          <br>
+        <button class="ii">Read More</button>
+        </div>
+    </div>
+ </section>
+</body>
+</html>
